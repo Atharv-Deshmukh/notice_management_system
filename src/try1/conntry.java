@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author nikhil
+ * 
  */
 class conntry {
     public static Connection connectdb()

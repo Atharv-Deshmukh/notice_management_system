@@ -7,7 +7,7 @@ package try1;
 
 /**
  *
- * @author nikhil
+ * 
  */
 public class principal_frame extends javax.swing.JFrame {
 

@@ -18,7 +18,7 @@ import javax.swing.JTabbedPane;
 
 /**
  *
- * @author nikhil
+ * 
  */
 public class Admin extends javax.swing.JFrame {
 

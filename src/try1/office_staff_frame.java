@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author nikhil
+ * 
  */
 public class office_staff_frame extends javax.swing.JFrame {
 

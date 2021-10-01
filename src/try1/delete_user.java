@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author nikhil
+ * 
  */
 public class delete_user extends javax.swing.JFrame {
 

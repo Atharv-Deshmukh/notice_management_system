@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author nikhil
+ * 
  */
 public class add_new_user extends javax.swing.JFrame {
 

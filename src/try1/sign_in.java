@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author nikhil
+ * 
  */
 public class sign_in extends javax.swing.JFrame {
 

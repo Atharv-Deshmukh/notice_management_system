@@ -20,7 +20,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author nikhil
+ * 
  */
 public class new_notice extends javax.swing.JFrame {
    
