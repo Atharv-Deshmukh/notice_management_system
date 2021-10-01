@@ -184,7 +184,7 @@ public class add_new_user extends javax.swing.JFrame {
            }
             else{
                     PreparedStatement ps;
-                   String query="insert into nikhil.login (username,password,post,phone_number,email_id)values(?,?,?,?,?)";
+                   String query="insert into try.login (username,password,post,phone_number,email_id)values(?,?,?,?,?)";
                     try
                     {
                         ps=conn.prepareStatement(query);
