@@ -11,7 +11,6 @@ import java.sql.SQLException;
 
 /**
  *
- * @author nikhil
  */
 class conntry {
     public static Connection connectdb()
@@ -19,7 +18,7 @@ class conntry {
                 Connection conn=null;
                 try
                 {
-                   conn =DriverManager.getConnection("jdbc:mysql://localhost:3306/noticeBoard", "root", "root");
+                   conn =DriverManager.getConnection("jdbc:mysql://localhost:3306/try", "root", "mysql123");
                     return conn;
                 }
                 catch(SQLException e)

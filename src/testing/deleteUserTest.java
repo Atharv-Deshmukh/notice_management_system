@@ -10,7 +10,7 @@ class deleteUserTest {
 	delete_user obj=new delete_user();
 	@Test
 	void test() {
-		int test = obj.delete("amol", "Student", "123456789");
+		int test = obj.delete("chirag", "Student", "123456789");
 		assertEquals(test,1);
 	}
 	@Test
@@ -20,12 +20,12 @@ class deleteUserTest {
 	}
 	@Test
 	void test2() {
-		int test = obj.delete("amol", "", "123456789");
+		int test = obj.delete("chirag", "", "123456789");
 		assertEquals(test,1);
 	}
 	@Test
 	void test3() {
-		int test = obj.delete("amol", "Student", "");
+		int test = obj.delete("chirag", "Student", "");
 		assertEquals(test,1);
 	}
 	@Test

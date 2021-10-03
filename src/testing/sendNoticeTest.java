@@ -21,7 +21,7 @@ class sendNoticeTest {
 	}
 	@Test
 	void test2() {
-		int test = obj.sendNotice("Cogratulation tnp & students for placement", "Principal", "123456789");
+		int test = obj.sendNotice("Congratulation tnp & students for placement", "Principal", "123456789");
 		assertEquals(test,1);
 	}
 	@Test

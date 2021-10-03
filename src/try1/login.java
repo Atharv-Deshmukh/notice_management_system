@@ -13,7 +13,6 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author nikhil
  */
 public class login extends javax.swing.JFrame 
 {
@@ -177,7 +176,7 @@ public class login extends javax.swing.JFrame
         
     	if(this.loginTask(username.getText(),password.getText(),proffesion.getSelectedItem().toString())==1) {  	
    
-    	 String login="Select * from noticeBoard.login where username=? AND password=? AND post=?";
+    	 String login="Select * from try.login where username=? AND password=? AND post=?";
          try{
              ps=conn.prepareStatement(login);
              ps.setString(1,username.getText());

@@ -14,7 +14,6 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author nikhil
  */
 public class new_sign_in extends javax.swing.JFrame {
 

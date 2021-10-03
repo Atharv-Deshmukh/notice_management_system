@@ -13,7 +13,6 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author nikhil
  */
 public class add_new_user extends javax.swing.JFrame {
 
@@ -144,7 +143,7 @@ public class add_new_user extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
    public int addUser(String name,String post,String password,String phone,String email) {
-	   if(name.equals("") || name.length()>29 || post.equals("") || phone.length()>10 || email.endsWith("@gmail.com") || password.equals("")) {
+	   if(name.equals("") || name.length()>29 || post.equals("") || phone.length()>10 || !email.endsWith("@gmail.com") || password.equals("")) {
 		   return 0;
 	   }
 	   return 1;

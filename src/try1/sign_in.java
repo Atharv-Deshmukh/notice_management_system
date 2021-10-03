@@ -17,7 +17,6 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author nikhil
  */
 public class sign_in extends javax.swing.JFrame {
 
@@ -325,7 +324,7 @@ public class sign_in extends javax.swing.JFrame {
         mainframe.repaint();
         mainframe.revalidate();
         
-         String query="select notice_from,notice_date,notice from noticeBoard.notice_details where notice_from='Principal' and notice_to='Student'";
+         String query="select notice_from,notice_date,notice from try.notice_details where notice_from='Principal' and notice_to='Student'";
          try
            {
                  ps=conn.prepareStatement(query);
@@ -360,7 +359,7 @@ public class sign_in extends javax.swing.JFrame {
         mainframe.removeAll();
         mainframe.repaint();
         mainframe.revalidate();
-                  String query="select notice_from,notice_date,notice from noticeBoard.notice_details where notice_from='HOD' and notice_to='Student'";
+                  String query="select notice_from,notice_date,notice from try.notice_details where notice_from='HOD' and notice_to='Student'";
          try
            {
                  ps=conn.prepareStatement(query);
@@ -396,7 +395,7 @@ public class sign_in extends javax.swing.JFrame {
          mainframe.removeAll();
         mainframe.repaint();
         mainframe.revalidate();
-          String query="select notice_from,notice_date,notice from noticeBoard.notice_details where notice_from='Teacher' and notice_to='Student'";
+          String query="select notice_from,notice_date,notice from try.notice_details where notice_from='Teacher' and notice_to='Student'";
          try
            {
                  ps=conn.prepareStatement(query);
@@ -432,7 +431,7 @@ public class sign_in extends javax.swing.JFrame {
      mainframe.removeAll();
         mainframe.repaint();
         mainframe.revalidate();
-          String query="select notice_from,notice_date,notice from noticeBoard.notice_details where notice_from='Office Staff' and notice_to='Student'";
+          String query="select notice_from,notice_date,notice from try.notice_details where notice_from='Office Staff' and notice_to='Student'";
          try
            {
                  ps=conn.prepareStatement(query);
@@ -468,7 +467,7 @@ public class sign_in extends javax.swing.JFrame {
         mainframe.removeAll();
         mainframe.repaint();
         mainframe.revalidate();
-          String query="select notice_from,notice_date,notice from noticeBoard.notice_details where notice_from='Library staff' and notice_to='Student'";
+          String query="select notice_from,notice_date,notice from try.notice_details where notice_from='Library staff' and notice_to='Student'";
          try
            {
               ps=conn.prepareStatement(query);

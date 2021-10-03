@@ -7,7 +7,6 @@ package try1;
 
 /**
  *
- * @author nikhil
  */
 public class display_notice_table extends javax.swing.JFrame {
 

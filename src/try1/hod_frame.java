@@ -16,7 +16,6 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author nikhil
  */
 public class hod_frame extends javax.swing.JFrame {
 
