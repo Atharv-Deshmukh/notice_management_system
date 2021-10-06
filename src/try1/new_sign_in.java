@@ -201,7 +201,7 @@ public class new_sign_in extends javax.swing.JFrame {
            }
             else{
                     PreparedStatement ps;
-                   String query="insert into noticeBoard.login (username,password,post,phone_number,email_id)values(?,?,?,?,?)";
+                   String query="insert into try.login (username,password,post,phone_number,email_id)values(?,?,?,?,?)";
                     try
                     {
                         ps=conn.prepareStatement(query);
